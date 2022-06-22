@@ -1,0 +1,66 @@
+img {
+  width:100%
+}
+
+@font-face {
+  font-family: 'antiqua';
+  src: url('./fonts/Antiquaregular.tff') format('truetype');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'strassburgfraktur';
+  src: url('./fonts/strassburgfraktur.tff') format('truetype');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+.text-box {
+  font-family: antiqua;
+  margin-left: 50%;
+  margin-top: 4%;
+  margin-right: 5%;
+  position:relative;
+}
+
+.title1 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.title2 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.image-box {
+  margin-left: 5%;
+  margin-top: 15%;
+  width:35%;
+  position:fixed;
+
+}
+
+.title-box {
+  width:100%;
+  position: fixed ;
+  margin-bottom: 20%;
+  animation: disapear 10s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+@keyframes disapear{
+  0%{
+    opacity: 1;
+  }
+  75%{
+    opacity: 1;
+  }
+  100%{
+    display: none;
+    opacity: 0;
+  }
+}

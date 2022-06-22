@@ -1,0 +1,1803 @@
+img {
+  width: 100%;
+}
+
+video {
+  width: auto;
+}
+
+body{
+  background-color: white;
+}
+
+@font-face {
+  font-family: 'antiqua';
+  src: url('./fonts/Antiquaregular.tff') format('truetype');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'strassburgfraktur';
+  src: url('./fonts/strassburgfraktur.tff') format('truetype');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.statment-text-conatainer {
+  color: black;
+  font-family: antiqua ;
+  font-size: 20px;
+  position: absolute;
+  text-align: center;
+  margin-top:25%;
+  margin-left:20%;
+  margin-right: 20%;
+  animation: disapear 9s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+@keyframes disapear{
+  0%{
+    opacity: 1;
+  }
+  75%{
+    opacity: 1;
+  }
+  100%{
+    display: none;
+    opacity: 0;
+  }
+}
+
+
+.neo-text-container {
+  font-size: 200px ;
+  font-family: strassburg fraktur;
+  color: black;
+  text-align: center;
+  position: absolute;
+  left: 42%;
+  top:40%;
+  animation: apear 9s ;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+@keyframes apear{
+  0%{
+    display: none;
+    opacity: 0;
+  }
+  65% {
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+.remrom1 {
+  position: relative;
+  cursor: pointer;
+  animation: apear 10s ;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+.remrom-container{
+  position: absolute;
+  margin-top: 23% ;
+  left: 2%;
+  width: 10%
+}
+.romreminvert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.romreminvert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.remrom2 {
+  position: relative;
+  cursor: pointer;
+}
+
+.remrom2-container{
+  position: absolute;
+  margin-top: 37% ;
+  left: 1.5%;
+  width: 12.5%
+}
+.romreminvert2 {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.romreminvert2:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.cleo1 {
+  position: relative;
+  cursor: pointer;
+}
+
+.cleo1-container{
+  position: absolute;
+  margin-top: 9% ;
+  left: 96%;
+  width: 3%
+}
+.cleo1invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.cleo1invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.cleo2 {
+  position: relative;
+  cursor: pointer;
+}
+
+.cleo2-container{
+  position: absolute;
+  margin-top: 15% ;
+  left: 57%;
+  width: 9%
+}
+.cleo2invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.cleo2invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.frenchrevo1 {
+  position: relative;
+  cursor: pointer;
+}
+
+.frenchrevo1-container{
+  position: absolute;
+  margin-top: 20% ;
+  left: 25%;
+  width: 3%
+}
+.frenchrevo1invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.frenchrevo1invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.jondae1 {
+  position: relative;
+  cursor: pointer;
+}
+
+.jondae1-container{
+  position: absolute;
+  margin-top: 47% ;
+  left: 76%;
+  width: 3%
+}
+.jondae1invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.jondae1invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.louisalive {
+  position: relative;
+  cursor: pointer;
+}
+
+.louisalive-container{
+  position: absolute;
+  margin-top: 11% ;
+  left: 47%;
+  width: 2%
+}
+.louisaliveinvert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.louisaliveinvert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+-
+
+.thomascole3 {
+  position: relative;
+  cursor: pointer;
+}
+
+.thomascole3-container{
+  position: absolute;
+  margin-top: 23% ;
+  left: 87%;
+  width: 4%
+}
+.thomascole3invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.thomascole3invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.thomascole4 {
+  position: relative;
+  cursor: pointer;
+}
+
+.thomascole4-container{
+  position: absolute;
+  margin-top: 0% ;
+  left: 93.5%;
+  width: 8%
+}
+.thomascole4invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.thomascole4invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.thomascole5 {
+  position: relative;
+  cursor: pointer;
+}
+
+.thomascole5-container{
+  position: absolute;
+  margin-top: 1.5% ;
+  left: 70%;
+  width: 3%
+}
+.thomascole5invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.thomascole5invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.nineteen1{
+  position: relative;
+  cursor: pointer;
+}
+
+.nineteen1-container{
+  position: absolute;
+  margin-top: 36% ;
+  left: 72%;
+  width: 10%
+}
+.nineteen1invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.nineteen1invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.nineteen2{
+  position: relative;
+  cursor: pointer;
+}
+
+.nineteen2-container{
+  position: absolute;
+  margin-top: 7% ;
+  left: 29%;
+  width: 10%
+}
+.nineteen2invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.nineteen2invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.nineteen3{
+  position: relative;
+  cursor: pointer;
+}
+
+.nineteen3-container{
+  position: absolute;
+  margin-top: 14% ;
+  left: 42%;
+  width: 2%
+}
+.nineteen3invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.nineteen3invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.nineteen5{
+  position: relative;
+  cursor: pointer;
+}
+
+.nineteen5-container{
+  position: absolute;
+  margin-top: 3% ;
+  left: 14%;
+  width: 3%
+}
+.nineteen5invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.nineteen5invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.babylon1{
+  position: relative;
+  cursor: pointer;
+}
+
+.babylon1-container{
+  position: absolute;
+  margin-top: 2% ;
+  left: 30%;
+  width: 4%
+}
+.babylon1invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.babylon1invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+
+.babylon2{
+  position: relative;
+  cursor: pointer;
+}
+
+.babylon2-container{
+  position: absolute;
+  margin-top: 43% ;
+  left: 43%;
+  width: 8%
+}
+.babylon2invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.babylon2invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.babylon3{
+  position: relative;
+  cursor: pointer;
+}
+
+.babylon3-container{
+  position: absolute;
+  margin-top: 20% ;
+  left: 92%;
+  width: 7%
+}
+.babylon3invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.babylon3invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.babylon4{
+  position: relative;
+  cursor: pointer;
+}
+
+.babylon4-container{
+  position: absolute;
+  margin-top: 16% ;
+  left: 49%;
+  width: 6%
+}
+.babylon4invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.babylon4invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.cesar1{
+  position: relative;
+  cursor: pointer;
+}
+
+.cesar1-container{
+  position: absolute;
+  margin-top: 2% ;
+  left: 20%;
+  width: 8%
+}
+.cesar1invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.cesar1invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.dae2{
+  position: relative;
+  cursor: pointer;
+}
+
+.dae2-container{
+  position: absolute;
+  margin-top: 1% ;
+  left: 74%;
+  width: 12%
+}
+.dae2invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.dae2invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.dae3{
+  position: relative;
+  cursor: pointer;
+}
+
+.dae3-container{
+  position: absolute;
+  margin-top: 24% ;
+  left: 38%;
+  width: 4%
+}
+.dae3invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.dae3invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.dae4{
+  position: relative;
+  cursor: pointer;
+}
+
+.dae4-container{
+  position: absolute;
+  margin-top: 15.5% ;
+  left: 78%;
+  width: 9%
+}
+.dae4invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.dae4invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.dae6{
+  position: relative;
+  cursor: pointer;
+}
+
+.dae6-container{
+  position: absolute;
+  margin-top: 11% ;
+  left: 87%;
+  width: 4.5%
+}
+.dae6invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.dae6invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.dae7{
+  position: relative;
+  cursor: pointer;
+}
+
+.dae7-container{
+  position: absolute;
+  margin-top: 27% ;
+  left: 63%;
+  width: 4%
+}
+.dae7invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.dae7invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.dae8{
+  position: relative;
+  cursor: pointer;
+}
+
+.dae8-container{
+  position: absolute;
+  margin-top: 15% ;
+  left: 93%;
+  width: 4%
+}
+.dae8invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.dae8invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.dae9{
+  position: relative;
+  cursor: pointer;
+}
+
+.dae9-container{
+  position: absolute;
+  margin-top: 38% ;
+  left: 55%;
+  width: 4%
+}
+.dae9invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.dae9invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.dae10{
+  position: relative;
+  cursor: pointer;
+}
+
+.dae10-container{
+  position: absolute;
+  margin-top: 9% ;
+  left: 14%;
+  width: 4%
+}
+.dae10invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.dae10invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.dae11{
+  position: relative;
+  cursor: pointer;
+}
+
+.dae11-container{
+  position: absolute;
+  margin-top: 23% ;
+  left: 72%;
+  width: 4%
+}
+.dae11invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.dae11invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.dae12{
+  position: relative;
+  cursor: pointer;
+}
+
+.dae12-container{
+  position: absolute;
+  margin-top: 34% ;
+  left: 3%;
+  width: 4%
+}
+.dae12invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.dae12invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.dae13{
+  position: relative;
+  cursor: pointer;
+}
+
+.dae13-container{
+  position: absolute;
+  margin-top: 36% ;
+  left: 91%;
+  width: 7%
+}
+.dae13invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.dae13invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.dae14{
+  position: relative;
+  cursor: pointer;
+}
+
+.dae14-container{
+  position: absolute;
+  margin-top: 39% ;
+  left: 31%;
+  width: 4%
+}
+.dae14invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.dae14invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.dae15{
+  position: relative;
+  cursor: pointer;
+}
+
+.dae15-container{
+  position: absolute;
+  margin-top: 7% ;
+  left: 59%;
+  width: 4%
+}
+.dae15invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.dae15invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.dae16{
+  position: relative;
+  cursor: pointer;
+}
+
+.dae16-container{
+  position: absolute;
+  margin-top: 44% ;
+  left: 62%;
+  width: 8%
+}
+.dae16invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.dae16invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.flag{
+  position: relative;
+  cursor: pointer;
+}
+
+.flag-container{
+  position: absolute;
+  margin-top: 32% ;
+  left: 35%;
+  width: 8%
+}
+.flaginvert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.flaginvert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.frenchrevo2{
+  position: relative;
+  cursor: pointer;
+}
+
+.frenchrevo2-container{
+  position: absolute;
+  margin-top: 32% ;
+  left: 20%;
+  width: 8%
+}
+.frenchrevo2invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.frenchrevo2invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.frenchrevo3{
+  position: relative;
+  cursor: pointer;
+}
+
+.frenchrevo3-container{
+  position: absolute;
+  margin-top: 8.5% ;
+  left: 75%;
+  width: 7%
+}
+.frenchrevo3invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.frenchrevo3invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.frenchrevo4{
+  position: relative;
+  cursor: pointer;
+}
+
+.frenchrevo4-container{
+  position: absolute;
+  margin-top: 2% ;
+  left: 2%;
+  width: 10%
+}
+.frenchrevo4invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.frenchrevo4invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.got1{
+  position: relative;
+  cursor: pointer;
+}
+
+.got1-container{
+  position: absolute;
+  margin-top: 1% ;
+  left: 39%;
+  width: 10%
+}
+.got1invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.got1invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.got2{
+  position: relative;
+  cursor: pointer;
+}
+
+.got2-container{
+  position: absolute;
+  margin-top: 28% ;
+  left: 35%;
+  width: 3%
+}
+.got2invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.got2invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.helenoftroy{
+  position: relative;
+  cursor: pointer;
+}
+
+.helenoftroy-container{
+  position: absolute;
+  margin-top: 20% ;
+  left: 15%;
+  width: 3%
+}
+.helenoftroyinvert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.helenoftroyinvert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.jon1{
+  position: relative;
+  cursor: pointer;
+}
+
+.jon1-container{
+  position: absolute;
+  margin-top: 12% ;
+  left: 13%;
+  width: 11%
+}
+.jon1invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.jon1invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.louisdead{
+  position: relative;
+  cursor: pointer;
+}
+
+.louisdead-container{
+  position: absolute;
+  margin-top: 12% ;
+  left: 53%;
+  width: 3%
+}
+.louisdeadinvert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.louisdeadinvert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.mariealive{
+  position: relative;
+  cursor: pointer;
+}
+
+.mariealive-container{
+  position: absolute;
+  margin-top: 5% ;
+  left: 66%;
+  width: 6%
+}
+.mariealiveinvert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.mariealiveinvert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.mariedead{
+  position: relative;
+  cursor: pointer;
+}
+
+.mariedead-container{
+  position: absolute;
+  margin-top: 30% ;
+  left: 68%;
+  width: 3%
+}
+.mariedeadinvert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.mariedeadinvert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.ras1{
+  position: relative;
+  cursor: pointer;
+}
+
+.ras1-container{
+  position: absolute;
+  margin-top: 39% ;
+  left: 45%;
+  width: 3%
+}
+.ras1invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.ras1invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+
+-
+
+.remrom3{
+  position: relative;
+  cursor: pointer;
+}
+
+.remrom3-container{
+  position: absolute;
+  margin-top: 23% ;
+  left: 19%;
+  width: 11%
+}
+.remrom3invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.remrom3invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+
+-
+
+.rome1{
+  position: relative;
+  cursor: pointer;
+}
+
+.rome1-container{
+  position: absolute;
+  margin-top: 27% ;
+  left: 78%;
+  width: 11%
+}
+.rome1invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.rome1invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+
+-
+
+.rome2{
+  position: relative;
+  cursor: pointer;
+}
+
+.rome2-container{
+  position: absolute;
+  margin-top: 5% ;
+  left: 88%;
+  width: 7%
+}
+.rome2invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.rome2invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+
+-
+
+.rome4{
+  position: relative;
+  cursor: pointer;
+}
+
+.rome4-container{
+  position: absolute;
+  margin-top: 30% ;
+  left: 45%;
+  width: 6%
+}
+.rome4invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.rome4invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+
+-
+
+.rome5{
+  position: relative;
+  cursor: pointer;
+}
+
+.rome5-container{
+  position: absolute;
+  margin-top: 16% ;
+  left: 70%;
+  width: 4%
+}
+.rome5invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.rome5invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+
+-
+
+.rome6{
+  position: relative;
+  cursor: pointer;
+}
+
+.rome6-container{
+  position: absolute;
+  margin-top: 2% ;
+  left: 61%;
+  width: 4%
+}
+.rome6invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.rome6invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.rome7{
+  position: relative;
+  cursor: pointer;
+}
+
+.rome7-container{
+  position: absolute;
+  margin-top: 8% ;
+  left: 42%;
+  width: 3.5%
+}
+.rome7invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.rome7invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.rome8{
+  position: relative;
+  cursor: pointer;
+}
+
+.rome8-container{
+  position: absolute;
+  margin-top: 43% ;
+  left: 85%;
+  width: 14%
+}
+.rome8invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.rome8invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.rome9{
+  position: relative;
+  cursor: pointer;
+}
+
+.rome9-container{
+  position: absolute;
+  margin-top: 4% ;
+  left: 52%;
+  width: 4%
+}
+.rome9invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.rome9invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.russ1{
+  position: relative;
+  cursor: pointer;
+}
+
+.russ1-container{
+  position: absolute;
+  margin-top: 43% ;
+  left: 53%;
+  width: 5%
+}
+.russ1invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.russ1invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.russ2{
+  position: relative;
+  cursor: pointer;
+}
+
+.russ2-container{
+  position: absolute;
+  margin-top: 12% ;
+  left: 4%;
+  width: 7%
+}
+.russ2invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.russ2invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.russ3{
+  position: relative;
+  cursor: pointer;
+}
+
+.russ3-container{
+  position: absolute;
+  margin-top: 42% ;
+  left: 33%;
+  width: 8%
+}
+.russ3invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.russ3invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.starwars1{
+  position: relative;
+  cursor: pointer;
+}
+
+.starwars1-container{
+  position: absolute;
+  margin-top: 31% ;
+  left: 53%;
+  width: 10%
+}
+.starwars1invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.starwars1invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.starwars2{
+  position: relative;
+  cursor: pointer;
+}
+
+.starwars2-container{
+  position: absolute;
+  margin-top: 1% ;
+  left: 53%;
+  width: 5%
+}
+.starwars2invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.starwars2invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.starwars4{
+  position: relative;
+  cursor: pointer;
+}
+
+.starwars4-container{
+  position: absolute;
+  margin-top: 17% ;
+  left: 30%;
+  width: 11%
+}
+.starwars4invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.starwars4invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.thomascole1{
+  position: relative;
+  cursor: pointer;
+}
+
+.thomascole1-container{
+  position: absolute;
+  margin-top: 33% ;
+  left: 14%;
+  width: 3%
+}
+.thomascole1invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.thomascole1invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+
+-
+
+.thomascole2{
+  position: relative;
+  cursor: pointer;
+}
+
+.thomascole2-container{
+  position: absolute;
+  margin-top: 38% ;
+  left: 63%;
+  width: 6%
+}
+.thomascole2invert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.thomascole2invert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+-
+
+.utopia{
+  position: relative;
+  cursor: pointer;
+}
+
+.utopia-container{
+  position: absolute;
+  margin-top: 45% ;
+  left: 17%;
+  width: 11%
+}
+.utopiainvert {
+  position: absolute ;
+  top:0;
+  left:0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.utopiainvert:hover {
+  opacity:1;
+  cursor: pointer;
+}
+
+.book{
+  position: relative;
+  cursor: pointer;
+}
+
+.book-container{
+  position: absolute;
+  margin-top: 20% ;
+  left: 40%;
+  width: 15%
+}
